@@ -1,0 +1,85 @@
+//question 1: product of two numbers 
+#import<iostream>
+using namespace std;
+int main(){
+    int x,y;
+    cout<<"x: ";
+    cin>>x;
+    cout<<"y: ";
+    cin>>y;
+
+    int product;
+    product = x*y;
+    cout<<"Product of x and y is: "<<product;
+
+    return 0;
+}
+
+
+//question 3: area of a rectangle
+#import<iostream>
+using namespace std;
+int main(){
+    int length,breadth,area;
+    cout<<"What is the length of the rectangle: ";
+    cin>>length;
+    cout<<"What is the breadth of the rectangle: ";
+    cin>>breadth;
+    area=length*breadth;
+    cout<<"Area of the rectangle is: "<<area;
+
+    return 0;
+}
+
+
+//question 4: cube of a number
+#import<iostream>
+using namespace std;
+int main(){
+    int x,ans;
+    cout<<"x: ";
+    cin>>x;
+    ans=x*x*x;
+    cout<<"cube of x is: "<<ans;
+
+    return 0;
+}
+
+
+//question 5: size of data types
+#include<iostream>
+using namespace std;
+
+int main()
+{
+cout<<"\nSize of fundamental data types :\n";
+cout<<"The sizeof(char) : "<< sizeof(char) << " bytes \n" ;
+cout<<"The sizeof(short) : "<< sizeof(short) << " bytes \n" ;
+cout<<"The sizeof(int) : "<< sizeof(int) << " bytes \n" ;
+cout<<"The sizeof(long): "<< sizeof(long) << " bytes \n" ;
+cout<<"The sizeof(long long) :"<< sizeof(long long) << " bytes \n";
+cout<<"The sizeof(float) :"<< sizeof(float) << " bytes \n" ;
+cout<<"The sizeof(double) :"<< sizeof(double) << " bytes \n";
+cout<<"The sizeof(long double) :"<< sizeof(long double) << " bytes \n";
+cout<<"The sizeof(bool) : "<< sizeof(bool) << " bytes \n\n";
+return 0;
+}
+
+
+//question 6: program to swap numbers 
+#include<iostream>
+using namespace std;
+int main(){
+    int num1,num2,c;
+    cout<<"num1: ";
+    cin>>num1;
+    cout<<"num2: ";
+    cin>>num2;
+    c=num2;
+    num2=num1;
+    num1=c;
+    cout<<"num1: "<<num1;
+    cout<<"num2: "<<num2;
+
+    return 0;
+}
